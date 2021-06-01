@@ -1,0 +1,155 @@
+.maindiv{
+    width: 1024px;
+    margin: auto;
+}
+/*header part*/
+.header{
+    width:1024px;
+    border:1px solid violet;
+    height:100px;
+    background-color:#FFFFFF;
+    position: sticky;
+    top: 0;
+}
+.logo{
+    width:30%;
+}
+img{
+    width:200px;
+    border:1px solid black;
+    padding:10px;
+    float: left;
+    margin:10px 0 5px 10px;
+}
+.menu{
+    float:right;
+    width:70%;
+    height:100%;
+    margin:10px 10px 30px 10px;
+}
+ul{
+    text-align:center;
+    background-color: #0DB14B;
+}
+ul li{
+    display: inline-block;
+    border-right:1px solid black;
+    margin-left:-4px;
+}
+ul li:first-child a{
+    border-left:1px solid black;;
+}
+ul li a{
+    text-decoration:none;
+    font-size:20px;
+    font-family: 'Times New Roman', Times, serif;
+    display:inline-block;
+    padding:20px;
+    font-style: bold;
+    color:white;
+}
+/*banner part*/
+.banner{
+    background-image: url(https://thumbs.dreamstime.com/z/vegetables-meat-different-fresh-raw-56035417.jpg);
+    height:400px;
+    margin-top:-20px;
+    margin-bottom:-20PX;
+}
+h1{
+    text-align: center;
+    background-color:#95a5a6;
+    height:100px;
+    margin-top:68px;
+    font-size:40px;
+    padding-top:60px;
+    opacity:0.6;
+}
+/*container part*/
+.container{
+    text-align: center;
+    height: 100px;
+    background-color:#0DB14B;
+    color:black;
+    padding:40PX;
+}
+.text{
+    text-align: justify;
+    color: white;
+    font-size:20px;
+    line-height: 1.5;
+}
+/*product box*/
+.mainbox{
+    display: flex;
+    margin-top:10px;
+    margin-bottom:15px;
+}
+.product-box{
+    color: white;
+    width:300px;
+    margin: auto;
+    padding:10px;
+    box-shadow: 1px 6px 6px 1px black;
+}
+h2{
+    margin:10px;
+    color: #818181;
+    font-style:bold;
+}
+.product-img{
+    width:250px;
+    border:none;
+   
+}
+.footer{
+    background-color:#343434;
+    height:100px;
+}
+.price{
+    color:#343434 ;
+    margin-left:10px;
+}
+del{
+    margin-left:5px;
+}
+button{
+    padding:5px;
+    width:100px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color:#0DB248;
+    color: white;
+    border-radius:10px;
+}
+/*footer part*/
+.footer{
+    text-align:center;
+    color: white;
+    margin-top:30px;
+}
+strong{
+    font-size:20px;
+    padding: 10px;
+}
+i{
+    font-size:30px;
+    padding:10px;
+}
+/*hover part*/
+button:hover{
+    background-color: #fff;
+    color:#0DB14B;
+    cursor: pointer;
+}
+i:hover{
+    color: #0DB14B;
+}
+ul li:hover a{
+    background-color: #fff;
+    color:#0DB14B ;
+}
+
+
+
+
+
